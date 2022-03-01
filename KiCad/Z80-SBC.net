@@ -1,0 +1,1876 @@
+# EESchema Netlist Version 1.1 created  4/30/2012 9:11:57 PM
+(
+ ( /4F9F6117 $noname  C25 0.1uF {Lib=CP1}
+  (    1 N-000124 )
+  (    2 N-000116 )
+ )
+ ( /4F9F6115 $noname  C26 0.1uF {Lib=CP1}
+  (    1 N-000171 )
+  (    2 N-000170 )
+ )
+ ( /4F9F6113 $noname  C27 0.1uF {Lib=CP1}
+  (    1 N-000169 )
+  (    2 VCC )
+ )
+ ( /4F9F6111 $noname  C28 0.1uF {Lib=CP1}
+  (    1 GND )
+  (    2 N-000168 )
+ )
+ ( /4F9F610C $noname  C24 0.1uF {Lib=CP1}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4E4C518A $noname  U7 74LS273 {Lib=74LS273}
+  (    1 /~RESET )
+  (    2 /MOTOR )
+  (    3 /D1 )
+  (    4 /D2 )
+  (    5 /MINI )
+  (    6 /P0 )
+  (    7 /D5 )
+  (    8 /D7 )
+  (    9 /~FDC_RST )
+  (   10 GND )
+  (   11 /~DOR_WR )
+  (   12 /DENSEL )
+  (   13 /D6 )
+  (   14 /D4 )
+  (   15 /P1 )
+  (   16 /TC )
+  (   17 /D0 )
+  (   18 /D3 )
+  (   19 /P2 )
+  (   20 VCC )
+ )
+ ( /4E386D9E $noname  JP3 FDC_INT/NMI {Lib=JUMPER3}
+  (    1 /~INT )
+  (    2 N-000180 )
+  (    3 /~NMI )
+ )
+ ( /4E36E4C5 $noname  U19 74LS14 {Lib=74LS14}
+  (    1 /~RW~/SEEK )
+  (    2 N-000098 )
+  (    3 /~FDC_RST )
+  (    4 /FDC_RST )
+  (    5 N-000186 )
+  (    6 /~DSKD )
+  (    7 GND )
+  (    8 /~DENSEL )
+  (    9 /DENSEL )
+  (   10 /INDEX )
+  (   11 /~INDEX )
+  (   12 N-000186 )
+  (   13 /~RDATA )
+  (   14 VCC )
+ )
+ ( /4E36E225 $noname  U3 AS6C4008 {Lib=AS6C4008_PWR}
+  (    1 /RAM_A18 )
+  (    2 /RAM_A16 )
+  (    3 /A14 )
+  (    4 /A12 )
+  (    5 /A7 )
+  (    6 /A6 )
+  (    7 /A5 )
+  (    8 /A4 )
+  (    9 /A3 )
+  (   10 /A2 )
+  (   11 /A1 )
+  (   12 /A0 )
+  (   13 /D0 )
+  (   14 /D1 )
+  (   15 /D2 )
+  (   16 GND )
+  (   17 /D3 )
+  (   18 /D4 )
+  (   19 /D5 )
+  (   20 /D6 )
+  (   21 /D7 )
+  (   22 /~RAM_CSO )
+  (   23 /A10 )
+  (   24 /~RD )
+  (   25 /A11 )
+  (   26 /A9 )
+  (   27 /A8 )
+  (   28 /A13 )
+  (   29 /~WR )
+  (   30 /RAM_A17 )
+  (   31 /RAM_A15 )
+  (   32 /RAM_VCC )
+ )
+ ( /4E33C91D $noname  P6 5V {Lib=CONN_2}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4E33430C $noname  HOLE4 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /4E334308 $noname  HOLE3 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /4E334305 $noname  HOLE2 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /4E3342FD $noname  HOLE1 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /4E333D25 $noname  JP2 PIN25_GND/VCC {Lib=JUMPER3}
+  (    1 GND )
+  (    2 /PAR_VCC )
+  (    3 VCC )
+ )
+ ( /4E3322CA $noname  C29 47uF {Lib=CP1}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4E3322B9 $noname  C23 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4E3322B3 $noname  C22 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4E3322AB $noname  C21 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4E3322A8 $noname  C20 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4E3322A3 $noname  C19 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4E3322A0 $noname  C18 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4E33229E $noname  C17 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4E33229A $noname  C16 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4E332294 $noname  C10 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4E332290 $noname  C9 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4E33228D $noname  C8 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4E33228A $noname  C15 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4E332288 $noname  C14 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4E332283 $noname  C13 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4E332280 $noname  C7 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4E332279 $noname  C6 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4E332273 $noname  C12 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4E332270 $noname  C11 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4E33226E $noname  C5 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4E33226B $noname  C4 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4E332268 $noname  C3 0.1uF {Lib=C}
+  (    1 /RAM_VCC )
+  (    2 GND )
+ )
+ ( /4E332265 $noname  C2 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4E33223E $noname  C1 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4E331FDD $noname  P1 POWER {Lib=CONN_3}
+  (    1 VCC )
+  (    2 GND )
+  (    3 GND )
+ )
+ ( /4E331F7D $noname  BT1 CR2032 {Lib=BATTERY}
+  (    1 /VBAT )
+  (    2 GND )
+ )
+ ( /4E331D90 $noname  P3 SERIAL {Lib=DB9}
+  (    1 ? )
+  (    2 /RX )
+  (    3 /TX )
+  (    4 /DTR )
+  (    5 GND )
+  (    6 /DSR )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+ )
+ ( /4E331489 $noname  R4 470 {Lib=R}
+  (    1 N-000088 )
+  (    2 N-000101 )
+ )
+ ( /4E330C65 $noname  R3 470 {Lib=R}
+  (    1 GND )
+  (    2 N-000193 )
+ )
+ ( /4E33057C $noname  RR2 1k {Lib=RR5}
+  (    1 VCC )
+  (    2 /~DC )
+  (    3 /~RDATA )
+  (    4 /~WRTPRO )
+  (    5 /~TRK0 )
+  (    6 /~INDEX )
+ )
+ ( /4E330576 $noname  RR1 4.7k {Lib=RR5}
+  (    1 VCC )
+  (    2 /~INT )
+  (    3 /~NMI )
+  (    4 /~BUSRQ )
+  (    5 /~WAIT )
+  (    6 /RTC_PLUP )
+ )
+ ( /4E32FB88 $noname  U8 74LS240 {Lib=74LS240}
+  (    1 /~RW~/SEEK )
+  (    2 VCC )
+  (    3 /FLT/TR0 )
+  (    4 /~WRTPRO )
+  (    5 /WP/TS )
+  (    6 /FR/STEP )
+  (    7 /~STEP )
+  (    8 /LCT/DIR )
+  (    9 /~DIR )
+  (   10 GND )
+  (   11 /LCT/DIR )
+  (   12 ? )
+  (   13 /FR/STEP )
+  (   14 ? )
+  (   15 GND )
+  (   16 /WP/TS )
+  (   17 /~TRK0 )
+  (   18 /FLT/TR0 )
+  (   19 N-000098 )
+  (   20 VCC )
+ )
+ ( /4E31EB35 $noname  D3 HALT {Lib=LED}
+  (    1 VCC )
+  (    2 N-000088 )
+ )
+ ( /4E31EB30 $noname  D2 PWR {Lib=LED}
+  (    1 VCC )
+  (    2 N-000193 )
+ )
+ ( /4E31E772 $noname  D1 1N4148 {Lib=DIODE}
+  (    1 N-000080 )
+  (    2 VCC )
+ )
+ ( /4E31E737 $noname  C30 10uF {Lib=CP1}
+  (    1 N-000080 )
+  (    2 GND )
+ )
+ ( /4E31E721 $noname  R1 10 {Lib=R}
+  (    1 N-000080 )
+  (    2 N-000175 )
+ )
+ ( /4E31E71F $noname  R2 10k {Lib=R}
+  (    1 VCC )
+  (    2 N-000080 )
+ )
+ ( /4E31E709 $noname  P2 RESET {Lib=CONN_2}
+  (    1 GND )
+  (    2 N-000175 )
+ )
+ ( /4E31E5FE $noname  SW1 RESET {Lib=TACT_SW_VERT}
+  (    1 GND )
+  (    2 N-000175 )
+  (  GND GND )
+ )
+ ( /4E31E489 $noname  U16 74LS32 {Lib=74LS32}
+  (    1 /~RTC_CS )
+  (    2 /~RD )
+  (    3 /~RTC_RD )
+  (    4 /~RTC_CS )
+  (    5 /~WR )
+  (    6 /~RTC_WR )
+  (    7 GND )
+  (    8 /~DOR_WR )
+  (    9 /~FDC_REG )
+  (   10 /~WR )
+  (   11 /~DIR_RD )
+  (   12 /~FDC_REG )
+  (   13 /~RD )
+  (   14 VCC )
+ )
+ ( /4E31E3F3 $noname  U17 74LS32 {Lib=74LS32}
+  (    1 /A7 )
+  (    2 /~IORQ )
+  (    3 N-000105 )
+  (    4 /~ROM_ENA )
+  (    5 /A15 )
+  (    6 N-000172 )
+  (    7 GND )
+  (    8 /~ROM_CS )
+  (    9 N-000172 )
+  (   10 /~MREQ )
+  (   11 /~RAM_CS )
+  (   12 N-000100 )
+  (   13 /~MREQ )
+  (   14 VCC )
+ )
+ ( /4E31E2DB $noname  U12 74F139 {Lib=74LS139}
+  (    1 /~WR )
+  (    2 /A2 )
+  (    3 /~CFG_CS )
+  (    4 /~CFG1_CS )
+  (    5 /~CFG2_CS )
+  (    6 ? )
+  (    7 ? )
+  (    8 GND )
+  (    9 ? )
+  (   10 ? )
+  (   11 /~DSB )
+  (   12 /~DSA )
+  (   13 /US1 )
+  (   14 /US0 )
+  (   15 GND )
+  (   16 VCC )
+ )
+ ( /4E31DFFF $noname  U13 74LS138 {Lib=74LS138}
+  (    1 /A3 )
+  (    2 /A4 )
+  (    3 /A6 )
+  (    4 N-000167 )
+  (    5 N-000105 )
+  (    6 /A5 )
+  (    7 /~CFG_CS )
+  (    8 GND )
+  (    9 /~RTC_CS )
+  (   10 /~UART_CS )
+  (   11 /~PPI_CS )
+  (   12 /~FDC_REG )
+  (   13 /~FDC_CS )
+  (   14 ? )
+  (   15 ? )
+  (   16 VCC )
+ )
+ ( /4E31DE4D $noname  U14 74LS125 {Lib=74LS125}
+  (    1 /~RTC_RD )
+  (    2 /RTC_IO )
+  (    3 /D0 )
+  (    4 /RTC_WE )
+  (    5 /RTC_IN )
+  (    6 /RTC_IO )
+  (    7 GND )
+  (    8 /D6 )
+  (    9 /RTC_PLUP )
+  (   10 /~RTC_RD )
+  (   11 /D0 )
+  (   12 /~DC )
+  (   13 /~DIR_RD )
+  (   14 VCC )
+ )
+ ( /4E31DC2A $noname  U18 74LS14 {Lib=74LS14}
+  (    1 N-000080 )
+  (    2 /RESET )
+  (    3 /RESET )
+  (    4 /~RESET )
+  (    5 /~M1 )
+  (    6 N-000167 )
+  (    7 GND )
+  (    8 N-000101 )
+  (    9 N-000111 )
+  (   10 N-000111 )
+  (   11 /~HALT )
+  (   12 N-000100 )
+  (   13 N-000172 )
+  (   14 VCC )
+ )
+ ( /4E31DA85 $noname  U20 74LS06 {Lib=74LS06}
+  (    1 /FDC_INT )
+  (    2 N-000180 )
+  (    3 /WGATE )
+  (    4 /~WGATE )
+  (    5 /WDATA )
+  (    6 /~WDATA )
+  (    7 GND )
+  (    8 /~MOTOR )
+  (    9 /MOTOR )
+  (   10 /~SIDE )
+  (   11 /SIDE )
+  (   12 /~INT )
+  (   13 /UART_INT )
+  (   14 VCC )
+ )
+ ( /4E2FC49C $noname  P5 FLOPPY {Lib=CONN_17X2}
+  (    1 GND )
+  (    2 /~DENSEL )
+  (    3 GND )
+  (    4 ? )
+  (    5 GND )
+  (    6 ? )
+  (    7 GND )
+  (    8 /~INDEX )
+  (    9 GND )
+  (   10 /~MOTOR )
+  (   11 GND )
+  (   12 /~DSB )
+  (   13 GND )
+  (   14 /~DSA )
+  (   15 GND )
+  (   16 /~MOTOR )
+  (   17 GND )
+  (   18 /~DIR )
+  (   19 GND )
+  (   20 /~STEP )
+  (   21 GND )
+  (   22 /~WDATA )
+  (   23 GND )
+  (   24 /~WGATE )
+  (   25 GND )
+  (   26 /~TRK0 )
+  (   27 GND )
+  (   28 /~WRTPRO )
+  (   29 GND )
+  (   30 /~RDATA )
+  (   31 GND )
+  (   32 /~SIDE )
+  (   33 GND )
+  (   34 /~DC )
+ )
+ ( /4E2FC278 $noname  P4 PARALLEL {Lib=CONN_13X2}
+  (    1 /PC0 )
+  (    2 /PA0 )
+  (    3 /PC1 )
+  (    4 /PA1 )
+  (    5 /PC2 )
+  (    6 /PA2 )
+  (    7 /PC3 )
+  (    8 /PA3 )
+  (    9 /PC4 )
+  (   10 /PA4 )
+  (   11 /PC5 )
+  (   12 /PA5 )
+  (   13 /PC6 )
+  (   14 /PA6 )
+  (   15 /PC7 )
+  (   16 /PA7 )
+  (   17 /PB7 )
+  (   18 /PB0 )
+  (   19 /PB6 )
+  (   20 /PB1 )
+  (   21 /PB5 )
+  (   22 /PB2 )
+  (   23 /PB4 )
+  (   24 /PB3 )
+  (   25 /PAR_VCC )
+  (   26 GND )
+ )
+ ( /4E2FC115 $noname  U15 74LS32 {Lib=74LS32}
+  (    1 /A15 )
+  (    2 /CFG1_Q1 )
+  (    3 /RAM_A16 )
+  (    4 /A15 )
+  (    5 /CFG1_Q3 )
+  (    6 /RAM_A18 )
+  (    7 GND )
+  (    8 /RAM_A15 )
+  (    9 /A15 )
+  (   10 /CFG1_Q0 )
+  (   11 /RAM_A17 )
+  (   12 /A15 )
+  (   13 /CFG1_Q2 )
+  (   14 VCC )
+ )
+ ( /4E2FBFE1 $noname  U10 74LS174 {Lib=74LS174}
+  (    1 /~RESET )
+  (    2 /ROM_A15 )
+  (    3 /D0 )
+  (    4 /D1 )
+  (    5 /ROM_A16 )
+  (    6 /D2 )
+  (    7 /ROM_A17 )
+  (    8 GND )
+  (    9 /~CFG2_CS )
+  (   10 /ROM_A18 )
+  (   11 /D3 )
+  (   12 ? )
+  (   13 /D4 )
+  (   14 /D7 )
+  (   15 /~ROM_ENA )
+  (   16 VCC )
+ )
+ ( /4E2FBFD9 $noname  U9 74LS174 {Lib=74LS174}
+  (    1 /~RESET )
+  (    2 /CFG1_Q0 )
+  (    3 /D0 )
+  (    4 /D1 )
+  (    5 /CFG1_Q1 )
+  (    6 /D2 )
+  (    7 /CFG1_Q2 )
+  (    8 GND )
+  (    9 /~CFG1_CS )
+  (   10 /CFG1_Q3 )
+  (   11 /D3 )
+  (   12 ? )
+  (   13 /D5 )
+  (   14 /D4 )
+  (   15 ? )
+  (   16 VCC )
+ )
+ ( /4E2FBAF5 $noname  JP1 CONFIG {Lib=JUMPER}
+  (    1 GND )
+  (    2 /RTC_PLUP )
+ )
+ ( /4E2FB849 $noname  U11 74LS174 {Lib=74LS174}
+  (    1 /~RESET )
+  (    2 /RTC_IN )
+  (    3 /D7 )
+  (    4 /D5 )
+  (    5 /RTC_WE )
+  (    6 /D2 )
+  (    7 ? )
+  (    8 GND )
+  (    9 /~RTC_WR )
+  (   10 /RTC_CLK )
+  (   11 /D6 )
+  (   12 /RTC_CE )
+  (   13 /D4 )
+  (   14 /D3 )
+  (   15 ? )
+  (   16 VCC )
+ )
+ ( /4E2FB80C $noname  X1 32768Hz {Lib=CRYSTAL}
+  (    1 N-000149 )
+  (    2 N-000148 )
+ )
+ ( /4E2FB425 $noname  U23 8MHz {Lib=OSC}
+  (    7 GND )
+  (    8 /FDC_CLK )
+  (   14 VCC )
+ )
+ ( /4E2FB421 $noname  U22 1.8432MHz {Lib=OSC}
+  (    7 GND )
+  (    8 /UART_CLK )
+  (   14 VCC )
+ )
+ ( /4E2FB41C $noname  U21 4MHz {Lib=OSC}
+  (    7 GND )
+  (    8 /CPU_CLK )
+  (   14 VCC )
+ )
+ ( /4E2FAFCD $noname  U4 16550 {Lib=16550}
+  (    1 /D0 )
+  (    2 /D1 )
+  (    3 /D2 )
+  (    4 /D3 )
+  (    5 /D4 )
+  (    6 /D5 )
+  (    7 /D6 )
+  (    8 /D7 )
+  (    9 N-000120 )
+  (   10 /SIN )
+  (   11 /SOUT )
+  (   12 VCC )
+  (   13 VCC )
+  (   14 /~UART_CS )
+  (   15 N-000120 )
+  (   16 /UART_CLK )
+  (   17 ? )
+  (   18 /~WR )
+  (   19 GND )
+  (   20 GND )
+  (   21 /~RD )
+  (   22 GND )
+  (   23 ? )
+  (   24 ? )
+  (   25 GND )
+  (   26 /A2 )
+  (   27 /A1 )
+  (   28 /A0 )
+  (   29 ? )
+  (   30 /UART_INT )
+  (   31 ? )
+  (   32 ? )
+  (   33 /~DTR )
+  (   34 ? )
+  (   35 /RESET )
+  (   36 GND )
+  (   37 /~DSR )
+  (   38 GND )
+  (   39 VCC )
+  (   40 VCC )
+ )
+ ( /4E2FAFB6 $noname  U24 MAX232A {Lib=MAX232}
+  (    1 N-000124 )
+  (    2 N-000169 )
+  (    3 N-000116 )
+  (    4 N-000171 )
+  (    5 N-000170 )
+  (    6 N-000168 )
+  (    7 /TX )
+  (    8 /RX )
+  (    9 /SIN )
+  (   10 /SOUT )
+  (   11 /~DTR )
+  (   12 /~DSR )
+  (   13 /DSR )
+  (   14 /DTR )
+  (   15 GND )
+  (   16 VCC )
+ )
+ ( /4E2FAFAE $noname  U26 DS1210 {Lib=DS1210}
+  (    1 /RAM_VCC )
+  (    2 /VBAT )
+  (    3 GND )
+  (    4 GND )
+  (    5 /~RAM_CS )
+  (    6 /~RAM_CSO )
+  (    7 GND )
+  (    8 VCC )
+ )
+ ( /4E2FAFA7 $noname  U25 DS1302 {Lib=DS1302}
+  (    1 VCC )
+  (    2 N-000149 )
+  (    3 N-000148 )
+  (    4 GND )
+  (    5 /RTC_CE )
+  (    6 /RTC_IO )
+  (    7 /RTC_CLK )
+  (    8 /VBAT )
+ )
+ ( /4E2FAF43 $noname  U6 FDC9266 {Lib=FDC9266}
+  (    1 /FDC_RST )
+  (    2 /~RD )
+  (    3 /~WR )
+  (    4 /~FDC_CS )
+  (    5 /A0 )
+  (    6 /D0 )
+  (    7 /D1 )
+  (    8 /D2 )
+  (    9 /D3 )
+  (   10 /D4 )
+  (   11 /D5 )
+  (   12 /D6 )
+  (   13 /D7 )
+  (   14 ? )
+  (   15 VCC )
+  (   16 /TC )
+  (   17 /INDEX )
+  (   18 /FDC_INT )
+  (   19 VCC )
+  (   20 GND )
+  (   21 /MINI )
+  (   22 /FDC_CLK )
+  (   23 /~DSKD )
+  (   24 /P0 )
+  (   25 /WGATE )
+  (   26 ? )
+  (   27 /SIDE )
+  (   28 /US1 )
+  (   29 /US0 )
+  (   30 /WDATA )
+  (   31 /P1 )
+  (   32 /P2 )
+  (   33 /FLT/TR0 )
+  (   34 /WP/TS )
+  (   35 VCC )
+  (   36 ? )
+  (   37 /FR/STEP )
+  (   38 /LCT/DIR )
+  (   39 /~RW~/SEEK )
+  (   40 VCC )
+ )
+ ( /4E2FAF15 $noname  U5 8255 {Lib=8255}
+  (    1 /PA3 )
+  (    2 /PA2 )
+  (    3 /PA1 )
+  (    4 /PA0 )
+  (    5 /~RD )
+  (    6 /~PPI_CS )
+  (    7 GND )
+  (    8 /A1 )
+  (    9 /A0 )
+  (   10 /PC7 )
+  (   11 /PC6 )
+  (   12 /PC5 )
+  (   13 /PC4 )
+  (   14 /PC0 )
+  (   15 /PC1 )
+  (   16 /PC2 )
+  (   17 /PC3 )
+  (   18 /PB0 )
+  (   19 /PB1 )
+  (   20 /PB2 )
+  (   21 /PB3 )
+  (   22 /PB4 )
+  (   23 /PB5 )
+  (   24 /PB6 )
+  (   25 /PB7 )
+  (   26 VCC )
+  (   27 /D7 )
+  (   28 /D6 )
+  (   29 /D5 )
+  (   30 /D4 )
+  (   31 /D3 )
+  (   32 /D2 )
+  (   33 /D1 )
+  (   34 /D0 )
+  (   35 /RESET )
+  (   36 /~WR )
+  (   37 /PA7 )
+  (   38 /PA6 )
+  (   39 /PA5 )
+  (   40 /PA4 )
+ )
+ ( /4E2FAE67 $noname  U2 29F040 {Lib=29F040}
+  (    1 /ROM_A18 )
+  (    2 /ROM_A16 )
+  (    3 /ROM_A15 )
+  (    4 /A12 )
+  (    5 /A7 )
+  (    6 /A6 )
+  (    7 /A5 )
+  (    8 /A4 )
+  (    9 /A3 )
+  (   10 /A2 )
+  (   11 /A1 )
+  (   12 /A0 )
+  (   13 /D0 )
+  (   14 /D1 )
+  (   15 /D2 )
+  (   16 GND )
+  (   17 /D3 )
+  (   18 /D4 )
+  (   19 /D5 )
+  (   20 /D6 )
+  (   21 /D7 )
+  (   22 /~ROM_CS )
+  (   23 /A10 )
+  (   24 /~RD )
+  (   25 /A11 )
+  (   26 /A9 )
+  (   27 /A8 )
+  (   28 /A13 )
+  (   29 /A14 )
+  (   30 /ROM_A17 )
+  (   31 /~WR )
+  (   32 VCC )
+ )
+ ( /4E2FADE9 $noname  U1 Z80-CPU {Lib=Z84C00}
+  (    1 /A11 )
+  (    2 /A12 )
+  (    3 /A13 )
+  (    4 /A14 )
+  (    5 /A15 )
+  (    6 /CPU_CLK )
+  (    7 /D4 )
+  (    8 /D3 )
+  (    9 /D5 )
+  (   10 /D6 )
+  (   11 VCC )
+  (   12 /D2 )
+  (   13 /D7 )
+  (   14 /D0 )
+  (   15 /D1 )
+  (   16 /~INT )
+  (   17 /~NMI )
+  (   18 /~HALT )
+  (   19 /~MREQ )
+  (   20 /~IORQ )
+  (   21 /~RD )
+  (   22 /~WR )
+  (   23 ? )
+  (   24 /~WAIT )
+  (   25 /~BUSRQ )
+  (   26 /~RESET )
+  (   27 /~M1 )
+  (   28 ? )
+  (   29 GND )
+  (   30 /A0 )
+  (   31 /A1 )
+  (   32 /A2 )
+  (   33 /A3 )
+  (   34 /A4 )
+  (   35 /A5 )
+  (   36 /A6 )
+  (   37 /A7 )
+  (   38 /A8 )
+  (   39 /A9 )
+  (   40 /A10 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C25
+ CP*
+ SM*
+$endlist
+$component C26
+ CP*
+ SM*
+$endlist
+$component C27
+ CP*
+ SM*
+$endlist
+$component C28
+ CP*
+ SM*
+$endlist
+$component C24
+ CP*
+ SM*
+$endlist
+$component U7
+ DIP-20__300
+$endlist
+$component U19
+ DIP-14__300
+$endlist
+$component C29
+ CP*
+ SM*
+$endlist
+$component C23
+ SM*
+ C?
+ C1-1
+$endlist
+$component C22
+ SM*
+ C?
+ C1-1
+$endlist
+$component C21
+ SM*
+ C?
+ C1-1
+$endlist
+$component C20
+ SM*
+ C?
+ C1-1
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
+$component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component P3
+ DB9*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component U8
+ DIP-20__300
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component C30
+ CP*
+ SM*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component U16
+ DIP-14__300
+$endlist
+$component U17
+ DIP-14__300
+$endlist
+$component U12
+ DIP-16__300
+$endlist
+$component U13
+ DIP-16__300
+$endlist
+$component U14
+ DIP-14__300
+$endlist
+$component U18
+ DIP-14__300
+$endlist
+$component U20
+ DIP-14__300
+$endlist
+$component U15
+ DIP-14__300
+$endlist
+$component U10
+ DIP-16__300
+$endlist
+$component U9
+ DIP-16__300
+$endlist
+$component U11
+ DIP-16__300
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/PC0" "PC0"
+ U5 14
+ P4 1
+Net 2 "/PA0" "PA0"
+ U5 4
+ P4 2
+Net 3 "/PC1" "PC1"
+ U5 15
+ P4 3
+Net 5 "/PC7" "PC7"
+ P4 15
+ U5 10
+Net 6 "/PA7" "PA7"
+ U5 37
+ P4 16
+Net 7 "GND" "GND"
+ SW1 1
+ U8 10
+ U12 15
+ SW1 GND
+ U3 16
+ C30 2
+ P2 1
+ C24 2
+ C28 1
+ U4 19
+ U4 22
+ U2 16
+ U1 29
+ U5 7
+ U20 7
+ U4 38
+ U16 7
+ U26 4
+ U13 8
+ U18 7
+ U26 3
+ U26 7
+ U25 4
+ U24 15
+ U6 20
+ U4 20
+ U4 25
+ U4 36
+ U8 15
+ U11 8
+ U23 7
+ U22 7
+ U21 7
+ U14 7
+ JP1 1
+ P5 33
+ P5 23
+ P5 13
+ P5 15
+ P5 25
+ P5 9
+ U9 8
+ P5 1
+ P5 3
+ P5 5
+ P5 7
+ P5 11
+ P5 21
+ P5 31
+ P5 27
+ P5 17
+ P5 19
+ U12 8
+ P4 26
+ P5 29
+ U7 10
+ C20 2
+ U19 7
+ R3 1
+ C14 2
+ C13 2
+ C7 2
+ C6 2
+ C15 2
+ C12 2
+ C11 2
+ U15 7
+ C29 2
+ C23 2
+ C22 2
+ C21 2
+ JP2 1
+ HOLE1 1
+ HOLE2 1
+ HOLE3 1
+ HOLE4 1
+ P6 2
+ C5 2
+ U10 8
+ P3 5
+ P1 3
+ C19 2
+ C18 2
+ C17 2
+ C16 2
+ C10 2
+ C9 2
+ C8 2
+ BT1 2
+ U17 7
+ C1 2
+ C2 2
+ C3 2
+ C4 2
+ P1 2
+Net 8 "/PB7" "PB7"
+ U5 25
+ P4 17
+Net 9 "/PB0" "PB0"
+ U5 18
+ P4 18
+Net 10 "/PB6" "PB6"
+ P4 19
+ U5 24
+Net 12 "/PB3" "PB3"
+ U5 21
+ P4 24
+Net 13 "/PA6" "PA6"
+ U5 38
+ P4 14
+Net 14 "/PB4" "PB4"
+ U5 22
+ P4 23
+Net 15 "/PC6" "PC6"
+ P4 13
+ U5 11
+Net 16 "/PB2" "PB2"
+ U5 20
+ P4 22
+Net 17 "/PA5" "PA5"
+ U5 39
+ P4 12
+Net 18 "/PB5" "PB5"
+ U5 23
+ P4 21
+Net 19 "/PC5" "PC5"
+ U5 12
+ P4 11
+Net 20 "/PB1" "PB1"
+ P4 20
+ U5 19
+Net 21 "/PA4" "PA4"
+ U5 40
+ P4 10
+Net 22 "/PC4" "PC4"
+ P4 9
+ U5 13
+Net 23 "/PA3" "PA3"
+ U5 1
+ P4 8
+Net 24 "/PC3" "PC3"
+ U5 17
+ P4 7
+Net 25 "/PA2" "PA2"
+ U5 2
+ P4 6
+Net 26 "/PC2" "PC2"
+ U5 16
+ P4 5
+Net 27 "/PA1" "PA1"
+ U5 3
+ P4 4
+Net 30 "/~FDC_RST" "~FDC_RST"
+ U19 3
+ U7 9
+Net 31 "/D0" "D0"
+ U14 3
+ U4 1
+ U1 14
+ U14 11
+ U6 6
+ U9 3
+ U7 17
+ U3 13
+ U10 3
+ U5 34
+ U2 13
+Net 32 "/MOTOR" "MOTOR"
+ U20 9
+ U7 2
+Net 34 "/D6" "D6"
+ U5 28
+ U14 8
+ U3 20
+ U1 10
+ U2 20
+ U4 7
+ U11 11
+ U6 12
+ U7 13
+Net 35 "/D2" "D2"
+ U4 3
+ U2 15
+ U11 6
+ U10 6
+ U6 8
+ U1 12
+ U9 6
+ U3 15
+ U5 32
+ U7 4
+Net 36 "/D4" "D4"
+ U2 18
+ U11 13
+ U7 14
+ U1 7
+ U5 30
+ U9 14
+ U3 18
+ U10 13
+ U6 10
+ U4 5
+Net 37 "/~WDATA" "~WDATA"
+ U20 6
+ P5 22
+Net 38 "/~SIDE" "~SIDE"
+ U20 10
+ P5 32
+Net 39 "/~DSA" "~DSA"
+ U12 12
+ P5 14
+Net 40 "/~WGATE" "~WGATE"
+ U20 4
+ P5 24
+Net 41 "/~DC" "~DC"
+ RR2 2
+ U14 12
+ P5 34
+Net 42 "/~DSB" "~DSB"
+ U12 11
+ P5 12
+Net 43 "/~TRK0" "~TRK0"
+ U8 17
+ P5 26
+ RR2 5
+Net 44 "/~DIR" "~DIR"
+ U8 9
+ P5 18
+Net 45 "/~WRTPRO" "~WRTPRO"
+ RR2 4
+ P5 28
+ U8 4
+Net 46 "/~RDATA" "~RDATA"
+ P5 30
+ RR2 3
+ U19 13
+Net 47 "/~STEP" "~STEP"
+ P5 20
+ U8 7
+Net 48 "/~MOTOR" "~MOTOR"
+ P5 10
+ P5 16
+ U20 8
+Net 49 "/~INDEX" "~INDEX"
+ U19 11
+ RR2 6
+ P5 8
+Net 50 "/~DENSEL" "~DENSEL"
+ P5 2
+ U19 8
+Net 51 "/A15" "A15"
+ U15 1
+ U15 9
+ U15 4
+ U15 12
+ U1 5
+ U17 5
+Net 52 "/~ROM_ENA" "~ROM_ENA"
+ U10 15
+ U17 4
+Net 53 "/~ROM_CS" "~ROM_CS"
+ U2 22
+ U17 8
+Net 54 "/~RAM_CS" "~RAM_CS"
+ U17 11
+ U26 5
+Net 56 "/D5" "D5"
+ U2 19
+ U3 19
+ U7 7
+ U11 4
+ U4 6
+ U5 29
+ U1 9
+ U9 13
+ U6 11
+Net 58 "/D3" "D3"
+ U10 11
+ U4 4
+ U6 9
+ U7 18
+ U3 17
+ U5 31
+ U1 8
+ U9 11
+ U11 14
+ U2 17
+Net 59 "/CFG1_Q0" "CFG1_Q0"
+ U15 10
+ U9 2
+Net 60 "/CFG1_Q2" "CFG1_Q2"
+ U15 13
+ U9 7
+Net 61 "/RAM_A15" "RAM_A15"
+ U3 31
+ U15 8
+Net 62 "/RAM_A17" "RAM_A17"
+ U3 30
+ U15 11
+Net 64 "/~CFG2_CS" "~CFG2_CS"
+ U12 5
+ U10 9
+Net 65 "/~CFG1_CS" "~CFG1_CS"
+ U12 4
+ U9 9
+Net 66 "/~CFG_CS" "~CFG_CS"
+ U12 3
+ U13 7
+Net 67 "/A2" "A2"
+ U1 32
+ U12 2
+ U4 26
+ U3 10
+ U2 10
+Net 68 "/ROM_A18" "ROM_A18"
+ U2 1
+ U10 10
+Net 69 "/D7" "D7"
+ U4 8
+ U2 21
+ U5 27
+ U3 21
+ U6 13
+ U7 8
+ U11 3
+ U10 14
+ U1 13
+Net 70 "/ROM_A15" "ROM_A15"
+ U2 3
+ U10 2
+Net 71 "/ROM_A16" "ROM_A16"
+ U2 2
+ U10 5
+Net 72 "/ROM_A17" "ROM_A17"
+ U2 30
+ U10 7
+Net 73 "/~RESET" "~RESET"
+ U18 4
+ U9 1
+ U10 1
+ U7 1
+ U1 26
+ U11 1
+Net 74 "/RAM_A16" "RAM_A16"
+ U3 2
+ U15 3
+Net 75 "/CFG1_Q1" "CFG1_Q1"
+ U15 2
+ U9 5
+Net 76 "/RAM_A18" "RAM_A18"
+ U15 6
+ U3 1
+Net 77 "/CFG1_Q3" "CFG1_Q3"
+ U15 5
+ U9 10
+Net 78 "/~DIR_RD" "~DIR_RD"
+ U16 11
+ U14 13
+Net 79 "/~RD" "~RD"
+ U4 21
+ U16 2
+ U2 24
+ U3 24
+ U16 13
+ U5 5
+ U6 2
+ U1 21
+Net 80 "" ""
+ U18 1
+ R2 2
+ R1 1
+ C30 1
+ D1 1
+Net 83 "/US1" "US1"
+ U6 28
+ U12 13
+Net 85 "/~IORQ" "~IORQ"
+ U1 20
+ U17 2
+Net 86 "/A7" "A7"
+ U17 1
+ U2 5
+ U3 5
+ U1 37
+Net 87 "/WP/TS" "WP/TS"
+ U6 34
+ U8 16
+ U8 5
+Net 88 "" ""
+ R4 1
+ D3 2
+Net 92 "/FLT/TR0" "FLT/TR0"
+ U8 3
+ U8 18
+ U6 33
+Net 95 "/LCT/DIR" "LCT/DIR"
+ U8 8
+ U6 38
+ U8 11
+Net 96 "/FR/STEP" "FR/STEP"
+ U8 13
+ U6 37
+ U8 6
+Net 97 "/~RW~/SEEK" "~RW~/SEEK"
+ U6 39
+ U8 1
+ U19 1
+Net 98 "" ""
+ U8 19
+ U19 2
+Net 99 "/SIDE" "SIDE"
+ U6 27
+ U20 11
+Net 100 "" ""
+ U18 12
+ U17 12
+Net 101 "" ""
+ U18 8
+ R4 2
+Net 102 "/FDC_INT" "FDC_INT"
+ U20 1
+ U6 18
+Net 103 "/WDATA" "WDATA"
+ U6 30
+ U20 5
+Net 104 "/US0" "US0"
+ U12 14
+ U6 29
+Net 105 "" ""
+ U17 3
+ U13 5
+Net 106 "/A6" "A6"
+ U13 3
+ U1 36
+ U2 6
+ U3 6
+Net 107 "/A5" "A5"
+ U13 6
+ U3 7
+ U2 7
+ U1 35
+Net 108 "/~FDC_CS" "~FDC_CS"
+ U13 13
+ U6 4
+Net 109 "/~M1" "~M1"
+ U18 5
+ U1 27
+Net 110 "/~HALT" "~HALT"
+ U18 11
+ U1 18
+Net 111 "" ""
+ U18 9
+ U18 10
+Net 112 "/RAM_VCC" "RAM_VCC"
+ U3 32
+ U26 1
+ C3 1
+Net 113 "/~RAM_CSO" "~RAM_CSO"
+ U26 6
+ U3 22
+Net 114 "/~DSR" "~DSR"
+ U24 12
+ U4 37
+Net 115 "/~DTR" "~DTR"
+ U4 33
+ U24 11
+Net 116 "" ""
+ U24 3
+ C25 2
+Net 117 "/MINI" "MINI"
+ U6 21
+ U7 5
+Net 118 "/P0" "P0"
+ U7 6
+ U6 24
+Net 119 "/WGATE" "WGATE"
+ U20 3
+ U6 25
+Net 120 "" ""
+ U4 9
+ U4 15
+Net 124 "" ""
+ C25 1
+ U24 1
+Net 129 "/UART_INT" "UART_INT"
+ U4 30
+ U20 13
+Net 130 "/A12" "A12"
+ U2 4
+ U1 2
+ U3 4
+Net 131 "/A11" "A11"
+ U3 25
+ U2 25
+ U1 1
+Net 132 "/A13" "A13"
+ U3 28
+ U1 3
+ U2 28
+Net 133 "/A14" "A14"
+ U3 3
+ U1 4
+ U2 29
+Net 134 "/A4" "A4"
+ U3 8
+ U13 2
+ U1 34
+ U2 8
+Net 136 "/A8" "A8"
+ U1 38
+ U2 27
+ U3 27
+Net 137 "/A9" "A9"
+ U3 26
+ U2 26
+ U1 39
+Net 138 "/~WAIT" "~WAIT"
+ RR1 5
+ U1 24
+Net 139 "/A3" "A3"
+ U3 9
+ U2 9
+ U13 1
+ U1 33
+Net 141 "/A1" "A1"
+ U5 8
+ U2 11
+ U1 31
+ U4 27
+ U3 11
+Net 142 "/A10" "A10"
+ U2 23
+ U3 23
+ U1 40
+Net 143 "/A0" "A0"
+ U4 28
+ U1 30
+ U2 12
+ U5 9
+ U6 5
+ U3 12
+Net 144 "/INDEX" "INDEX"
+ U6 17
+ U19 10
+Net 145 "/TC" "TC"
+ U7 16
+ U6 16
+Net 146 "/~RTC_WR" "~RTC_WR"
+ U11 9
+ U16 6
+Net 147 "/VBAT" "VBAT"
+ BT1 1
+ U25 8
+ U26 2
+Net 148 "" ""
+ X1 2
+ U25 3
+Net 149 "" ""
+ X1 1
+ U25 2
+Net 152 "/UART_CLK" "UART_CLK"
+ U4 16
+ U22 8
+Net 153 "/FDC_CLK" "FDC_CLK"
+ U6 22
+ U23 8
+Net 154 "/CPU_CLK" "CPU_CLK"
+ U1 6
+ U21 8
+Net 155 "/~RTC_RD" "~RTC_RD"
+ U14 10
+ U16 3
+ U14 1
+Net 156 "/RTC_CLK" "RTC_CLK"
+ U11 10
+ U25 7
+Net 157 "/RTC_CE" "RTC_CE"
+ U25 5
+ U11 12
+Net 158 "/RTC_PLUP" "RTC_PLUP"
+ RR1 6
+ JP1 2
+ U14 9
+Net 159 "/~MREQ" "~MREQ"
+ U1 19
+ U17 10
+ U17 13
+Net 160 "/~PPI_CS" "~PPI_CS"
+ U5 6
+ U13 11
+Net 161 "/~UART_CS" "~UART_CS"
+ U13 10
+ U4 14
+Net 162 "/RTC_IO" "RTC_IO"
+ U14 2
+ U25 6
+ U14 6
+Net 163 "/RTC_IN" "RTC_IN"
+ U14 5
+ U11 2
+Net 164 "/RTC_WE" "RTC_WE"
+ U11 5
+ U14 4
+Net 165 "/FDC_RST" "FDC_RST"
+ U6 1
+ U19 4
+Net 166 "/~NMI" "~NMI"
+ RR1 3
+ U1 17
+ JP3 3
+Net 167 "" ""
+ U18 6
+ U13 4
+Net 168 "" ""
+ U24 6
+ C28 2
+Net 169 "" ""
+ U24 2
+ C27 1
+Net 170 "" ""
+ U24 5
+ C26 2
+Net 171 "" ""
+ C26 1
+ U24 4
+Net 172 "" ""
+ U18 13
+ U17 9
+ U17 6
+Net 173 "/~FDC_REG" "~FDC_REG"
+ U13 12
+ U16 9
+ U16 12
+Net 174 "/~RTC_CS" "~RTC_CS"
+ U13 9
+ U16 1
+ U16 4
+Net 175 "" ""
+ R1 2
+ P2 2
+ SW1 2
+Net 176 "/RESET" "RESET"
+ U5 35
+ U18 3
+ U18 2
+ U4 35
+Net 177 "VCC" "VCC"
+ U23 14
+ U11 16
+ U20 14
+ U22 14
+ U21 14
+ C2 1
+ C1 1
+ P1 1
+ U10 16
+ U9 16
+ U14 14
+ U8 20
+ U4 12
+ U8 2
+ D3 1
+ U25 1
+ U26 8
+ U12 16
+ U18 14
+ U13 16
+ U2 32
+ U1 11
+ U6 19
+ U5 26
+ U16 14
+ U6 15
+ U24 16
+ U6 40
+ U7 20
+ U4 39
+ U6 35
+ U4 13
+ D2 1
+ U4 40
+ P6 1
+ RR2 1
+ RR1 1
+ U15 14
+ C12 1
+ JP2 3
+ C13 1
+ C27 2
+ C24 1
+ D1 2
+ C14 1
+ R2 1
+ C10 1
+ C9 1
+ C29 1
+ C23 1
+ C16 1
+ U19 14
+ C8 1
+ U17 14
+ C4 1
+ C15 1
+ C19 1
+ C18 1
+ C17 1
+ C6 1
+ C7 1
+ C21 1
+ C20 1
+ C22 1
+ C11 1
+ C5 1
+Net 178 "/PAR_VCC" "PAR_VCC"
+ P4 25
+ JP2 2
+Net 179 "/P2" "P2"
+ U6 32
+ U7 19
+Net 180 "" ""
+ U20 2
+ JP3 2
+Net 181 "/P1" "P1"
+ U6 31
+ U7 15
+Net 182 "/DENSEL" "DENSEL"
+ U19 9
+ U7 12
+Net 183 "/~DOR_WR" "~DOR_WR"
+ U7 11
+ U16 8
+Net 184 "/D1" "D1"
+ U5 33
+ U9 4
+ U7 3
+ U3 14
+ U4 2
+ U1 15
+ U6 7
+ U10 4
+ U2 14
+Net 185 "/~DSKD" "~DSKD"
+ U6 23
+ U19 6
+Net 186 "" ""
+ U19 5
+ U19 12
+Net 187 "/SIN" "SIN"
+ U24 9
+ U4 10
+Net 188 "/SOUT" "SOUT"
+ U24 10
+ U4 11
+Net 191 "/~BUSRQ" "~BUSRQ"
+ RR1 4
+ U1 25
+Net 193 "" ""
+ D2 2
+ R3 2
+Net 195 "/DSR" "DSR"
+ P3 6
+ U24 13
+Net 196 "/RX" "RX"
+ P3 2
+ U24 8
+Net 197 "/TX" "TX"
+ U24 7
+ P3 3
+Net 198 "/DTR" "DTR"
+ P3 4
+ U24 14
+Net 199 "/~INT" "~INT"
+ U1 16
+ U20 12
+ JP3 1
+ RR1 2
+Net 200 "/~WR" "~WR"
+ U2 31
+ U5 36
+ U16 5
+ U12 1
+ U4 18
+ U6 3
+ U3 29
+ U16 10
+ U1 22
+}
+#End
