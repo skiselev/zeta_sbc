@@ -1,0 +1,28 @@
+EESchema-DOCLIB  Version 2.0  Date: 2/3/2015 9:08:54 AM
+#
+$CMP BUSAT_HOST
+D ISA BUS Connector, 16 bits, Host (SBC)
+K ISA
+$ENDCMP
+#
+$CMP BUSPC_DEV
+D 8-Bit ISA BUS Connector
+K ISA
+$ENDCMP
+#
+$CMP ISA8
+D 8-Bit ISA BUS Connector
+K ISA
+$ENDCMP
+#
+$CMP MINI-DIN6
+D Symbole general pour connexions
+K CONN
+$ENDCMP
+#
+$CMP TACT_SW_VERT
+D Push Button
+K Switch
+$ENDCMP
+#
+#End Doc Library

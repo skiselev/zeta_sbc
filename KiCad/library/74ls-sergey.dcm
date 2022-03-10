@@ -1,0 +1,148 @@
+EESchema-DOCLIB  Version 2.0  Date: 8/17/2011 4:33:12 PM
+#
+$CMP 74LS00
+D Quad 2-Input NAND Gate
+K TTL NAND2
+$ENDCMP
+#
+$CMP 74LS02
+D Quad 2-Input OR Gate
+K TTL OR2
+$ENDCMP
+#
+$CMP 74LS04
+D Quad 2-Input NAND Gate
+K TTL NAND2
+$ENDCMP
+#
+$CMP 74LS06
+D Quad 2-Input NAND Gate
+K TTL NAND2
+$ENDCMP
+#
+$CMP 74LS07
+D Quad 2-Input NAND Gate
+K TTL NAND2
+$ENDCMP
+#
+$CMP 74LS08
+D Quad 2-Input AND Gate
+K TTL AND2
+$ENDCMP
+#
+$CMP 74LS10
+D Quad 2-Input AND Gate
+K TTL AND2
+$ENDCMP
+#
+$CMP 74LS11
+D Quad 2-Input AND Gate
+K TTL AND2
+$ENDCMP
+#
+$CMP 74LS125
+D Quad 3-State Buffer
+K TTL 3-State Buffer
+$ENDCMP
+#
+$CMP 74LS138
+D 3-Line To 8-Line Decoder/Demultiplexer
+K 3-to-8 decoder demultiplexer
+$ENDCMP
+#
+$CMP 74LS139
+D Dual 2-Line To 4-Line Decoder/Demultiplexer
+K 2-to-4 decoder demultiplexer
+$ENDCMP
+#
+$CMP 74LS14
+D Quad 2-Input NAND Gate
+K TTL NAND2
+$ENDCMP
+#
+$CMP 74LS164
+D Hex D Flip-flop
+K D trigger flip-flop
+$ENDCMP
+#
+$CMP 74LS174
+D Hex D Flip-flop
+K D trigger flip-flop
+$ENDCMP
+#
+$CMP 74LS175
+D Quad D Flip-flop
+K D trigger flip-flop
+$ENDCMP
+#
+$CMP 74LS20
+D Dual 4-Input NAND Gate
+K TTL NAND4
+$ENDCMP
+#
+$CMP 74LS240
+D 8 bits Bus Buffer 3 State out
+K TTL Buffer BUS 3State
+$ENDCMP
+#
+$CMP 74LS244
+D 8 bits Bus Buffer 3 State out
+K TTL Buffer BUS 3State
+$ENDCMP
+#
+$CMP 74LS245
+D Octal Bus Transceiver
+K TTL bus transceiver
+$ENDCMP
+#
+$CMP 74LS27
+D Triple 3-Input NOR Gate
+K TTL NOR3
+$ENDCMP
+#
+$CMP 74LS273
+D Octal D-Type Flip-Flop with 3-State Outputs
+K TTL D Flip-Flop
+$ENDCMP
+#
+$CMP 74LS30
+D 8-Input NAND Gate
+K TTL NAND8
+$ENDCMP
+#
+$CMP 74LS32
+D Quad 2-Input OR Gate
+K TTL OR2
+$ENDCMP
+#
+$CMP 74LS573
+D Octal D Latch With 3-State Outputs
+K TTL D latch
+$ENDCMP
+#
+$CMP 74LS574
+D Octal D-Type Flip-Flop with 3-State Outputs
+K TTL D Flip-Flop
+$ENDCMP
+#
+$CMP 74LS670
+D 4x4 Register File With 3-State Outputs
+K TTL register file 3State
+$ENDCMP
+#
+$CMP 74LS688
+D 8-Bit Magnitude Comparator
+K Magnitude Comparator
+$ENDCMP
+#
+$CMP 74LS74
+D Dual D-Type Positive-Edge Triggered Flip-Flops With Preset and Clear
+K D Trigger Flip-flop
+$ENDCMP
+#
+$CMP 74LS92
+D Divide by 12 counter
+K counter divider 12
+$ENDCMP
+#
+#End Doc Library
