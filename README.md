@@ -43,17 +43,17 @@ File downloads are at the bottom of this page.
 
 ## KiCad Design Files
 
-Zeta SBC V2 - KiCad - 2.0.zip
+[Zeta SBC V2 - KiCad - 2.0.zip](files/Zeta%20SBC%20V2%20-%20KiCad%20-%202.0.zip)
 
 ## Schematic
 
-Zeta SBC V2 - Schematic - Color - 2.0.pdf
+[Zeta SBC V2 - Schematic - Color - 2.0.pdf](files/Zeta%20SBC%20V2%20-%20Schematic%20-%20Color%20-%202.0.pdf)
 
 ### PCB Version 2.0
 
-Zeta SBC V2 - Board - Color - 2.0.pdf
+[Zeta SBC V2 - Board - Color - 2.0.pdf](files/Zeta%20SBC%20V2%20-%20Board%20-%20Color%20-%202.0.pdf)
 
-Zeta SBC V2 - Gerber - 2.0.zip
+[Zeta SBC V2 - Gerber - 2.0.zip](files/Zeta%20SBC%20V2%20-%20Gerber%20-%202.0.zip)
 
 ## Input/Output Ports
 
