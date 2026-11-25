@@ -354,7 +354,7 @@ If unsure what to order, read specifications on seller's and manufacturer's web 
   - Either NMOS or CMOS parts work. It is recommended to use at least 4 MHz CPU. 6 MHz or faster CPU is required for 1.44MB disk support. 8 MHz is recommended.
   - CMOS versions - Z84C00xxPEG or Z84C00xxPEC, and Z84C30xxPEG or Z84C30xxPEC are recommended.
   - Note: PEG or PEC suffixes mean 40 pin plastic DIP package, PEG is RoHS compliant, PEC is not.
-  - Tested with CMOS Z84C00 (6MHz, 8MHz, 20MHz) and NMOS Z8400 (4MHz) CPUs, and CMOS Z84C0010PEG CTC
+  - Tested with CMOS Z84C00 (6MHz, 8MHz, 20MHz) and NMOS Z8400 (4MHz) CPUs, and CMOS Z84C3010PEG CTC
 * 16550 UART
   - 16550 UART is recommended. 8250 or 16450 UARTs can be used as well, but they don't have FIFO.
   - Tested with: Texas Instruments TL16C550, Exar ST16C550, National Semiconductor NS16550AFN, California Micro Devices CM16C550, Goldstar GM16C450, and UMC 8250B
